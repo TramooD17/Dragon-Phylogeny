@@ -6,6 +6,8 @@ output:
   pdf_document: default
   html_document: default
 ---
+SN: 20109161
+
 Link to repository:https://github.com/TramooD17/Dragon-Phylogeny
 Expanding the Dragon Phylogeny  
 
@@ -38,7 +40,7 @@ library(ggtree)
 The dragons "Emily", "Stephen" and "Darenrin" were added to the DragonNexus file using TextEdit.
 
 ```{r}
-DragonNexus <- read.nexus.data("./input/DragonMatrix.nex")
+DragonNexus <- read.nexus.data("./input/A7_Duong_Tram.nex")
 ```
 
 Weights were added to the traits to take into account those that are more strongly or weakly selected for in evolution.
